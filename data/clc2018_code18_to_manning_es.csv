@@ -1,0 +1,45 @@
+﻿CODE_18,CLC_CODE,CLC_NAME,MANNING,MANNING_SOURCE
+111,1.1.1,Tejido urbano continuo,0.1,match exact por nombre
+112,1.1.2,Tejido urbano discontinuo,0.09,Estructura urbana abierta (guía)
+121,1.2.1,Zonas industriales o comerciales,0.1,Zonas industriales (guía)
+122,1.2.2,"Redes viarias, ferroviarias y terrenos asociados",0.1,Autopistas/autovías/ferrocarril (guía)
+123,1.2.3,Zonas portuarias,0.1,match exact por nombre
+124,1.2.4,Aeropuertos,0.1,match exact por nombre
+131,1.3.1,Zonas de extracción minera,0.04,match exact por nombre
+132,1.3.2,Escombreras y vertederos,0.04,match exact por nombre
+133,1.3.3,Zonas en construcción,0.04,match exact por nombre
+141,1.4.1,Zonas verdes urbanas,0.09,match exact por nombre
+142,1.4.2,Instalaciones deportivas y recreativas,0.09,Instalaciones deportivas y recreativas (guía)
+211,2.1.1,Tierras de labor en secano,0.04,Tierras de labor en secano (guía)
+212,2.1.2,Terrenos regados permanentemente,0.04,Cultivos herbáceos en regadío (guía)
+213,2.1.3,Arrozales,0.04,match exact por nombre
+221,2.2.1,Viñedos,0.05,Viñedos en secano (guía)
+222,2.2.2,Frutales,0.06,Frutales en secano (guía)
+223,2.2.3,Olivares,0.06,Olivares en secano (guía)
+231,2.3.1,Praderas,0.035,Prados y praderas (guía)
+241,2.4.1,Cultivos anuales asociados con cultivos,0.04,Mosaicos/cultivos asociados (guía: rango 0.035-0.05)
+242,2.4.2,Mosaico de cultivos,0.04,Mosaicos de cultivos (guía: rango 0.035-0.05)
+243,2.4.3,"Terrenos principalmente agrícolas, pero con",0.05,Mosaico agrícola con vegetación natural (guía: rango 0.035-0.05)
+244,2.4.4,Sistemas agroforestales,0.06,Sistemas agroforestales (adehesado) (guía)
+311,3.1.1,Bosques de frondosas,0.07,Bosques frondosas (guía)
+312,3.1.2,Bosques de coníferas,0.07,Bosques coníferas (guía)
+313,3.1.3,Bosque mixto,0.07,match exact por nombre
+321,3.2.1,Pastizales naturales,0.035,Pastizales naturales (guía)
+322,3.2.2,Landas y matorrales,0.06,Landas y matorrales (guía: rango 0.055-0.07)
+323,3.2.3,Vegetación esclerófila,0.06,Vegetación esclerófila (guía: matorrales)
+324,3.2.4,Matorral boscoso de transición,0.07,Matorral boscoso de transición (guía: matorrales)
+331,3.3.1,"Playas, dunas y arenales",0.025,Playas y dunas (guía)
+332,3.3.2,Roquedo,0.03,Afloramientos rocosos (guía)
+333,3.3.3,Espacios con vegetación escasa,0.03,Vegetación escasa / rocas / cárcavas (guía)
+334,3.3.4,Zonas quemadas,0.04,match exact por nombre
+335,3.3.5,Glaciares y nieves permanentes,0.025,match exact por nombre
+411,4.1.1,Humedales y zonas pantanosas,0.04,Humedales y zonas pantanosas (guía)
+412,4.1.2,Turberas,0.04,Turberas (guía)
+421,4.2.1,Marismas,0.04,match exact por nombre
+422,4.2.2,Salinas,0.04,match exact por nombre
+423,4.2.3,Zonas llanas intermareales,0.04,match exact por nombre
+511,5.1.1,Cursos de agua,0.04,Ríos y cauces naturales (guía)
+512,5.1.2,Láminas de agua,0.025,Lagos/lagunas/embalses/mares (guía)
+521,5.2.1,Lagunas costeras,0.025,match exact por nombre
+522,5.2.2,Estuarios,0.03,match exact por nombre
+523,5.2.3,Mares y océanos,0.025,match exact por nombre
