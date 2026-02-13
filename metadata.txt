@@ -3,16 +3,16 @@
 [general]
 name=CLC2Manning
 qgisMinimumVersion=3.28
-version=0.1.0
+version=0.1.1
 description=Calcula la rugosidad de Manning de CORINE 2018 y la recorta por un área de interés para flujos de trabajo de modelado hidráulico.
 author=Pedro Ivar y Hugo Bohorquez Aliaga Villafuerte
 email=bohoraling@gmail.com
 
 about=CLC2Manning es un complemento de QGIS que asigna valores de rugosidad de Manning a los polígonos de CORINE Land Cover 2018. Permite cargar datos de CORINE desde un GeoPackage, seleccionar un Área de Interés haciendo clic en cualquier polígono del mapa, recortar CORINE a esa AOI, asignar valores de Manning según la clasificación CODE_18, calcular áreas de polígonos y, opcionalmente, heredar la simbología original de CORINE. Está diseñado para aplicaciones hidráulicas e hidrológicas, como estudios de inundaciones HEC-RAS. Por el momento sólo disponible para España Peninsular.
 
-homepage=https://github.com/TU_USUARIO/clc2manning
-repository=https://github.com/TU_USUARIO/clc2manning
-tracker=https://github.com/TU_USUARIO/clc2manning/issues
+homepage=https://github.com/pedroiba94/CLC2Manning
+repository=https://github.com/pedroiba94/CLC2Manning
+tracker=https://github.com/pedroiba94/CLC2Manning/issues
 
 category=Analysis
 tags=corine, manning, hec-ras, roughness, landcover, clip, hydrology, flood, hydraulic, spain
