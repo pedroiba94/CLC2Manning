@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Clc2ManningDialog</class>
+ <widget class="QDialog" name="Clc2ManningDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CLC → Manning</string>
+  </property>
+
+  <layout class="QVBoxLayout" name="verticalLayout">
+
+   <!-- PASO 1 -->
+   <item>
+    <widget class="QGroupBox" name="grpPaso1">
+     <property name="title">
+      <string>Paso 1 · CORINE 2018 (España)</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayoutPaso1">
+
+      <item>
+       <widget class="QRadioButton" name="rbTengoCorine">
+        <property name="text">
+         <string>A) Ya tengo el CORINE 2018</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QRadioButton" name="rbNoTengoCorine">
+        <property name="text">
+         <string>B) No tengo el CORINE 2018</string>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QPushButton" name="btnAbrirCNIG">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Abrir enlace de descarga (CNIG)</string>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutRuta">
+        <item>
+         <widget class="QLineEdit" name="txtRutaCorine">
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="placeholderText">
+           <string>Selecciona CLC2018_ES.gpkg…</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnSeleccionarArchivo">
+          <property name="text">
+           <string>Seleccionar GPKG…</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+
+      <item>
+       <widget class="QCheckBox" name="chkCargarCorine">
+        <property name="text">
+         <string>Cargar CORINE en el proyecto (recomendado)</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QCheckBox" name="chkHeredarEstilo">
+        <property name="text">
+         <string>Heredar estilo del CORINE en el recorte (colores)</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QLabel" name="lblEstado">
+        <property name="text">
+         <string>Estado: pendiente</string>
+        </property>
+       </widget>
+      </item>
+
+     </layout>
+    </widget>
+   </item>
+
+   <!-- PASO 2 -->
+   <item>
+    <widget class="QGroupBox" name="grpPaso2">
+     <property name="title">
+      <string>Paso 2 · Área de estudio (AOI)</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayoutPaso2">
+
+      <item>
+       <widget class="QLabel" name="lblPaso2Info">
+        <property name="text">
+         <string>Selecciona el AOI con un clic sobre cualquier polígono visible en el mapa (capa que sea).</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutPick">
+        <item>
+         <widget class="QPushButton" name="btnPickAoi">
+          <property name="text">
+           <string>Seleccionar AOI en el mapa…</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnLimpiarAoi">
+          <property name="text">
+           <string>Limpiar AOI</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+
+      <item>
+       <widget class="QLabel" name="lblAoiEstado">
+        <property name="text">
+         <string>AOI: pendiente</string>
+        </property>
+       </widget>
+      </item>
+
+     </layout>
+    </widget>
+   </item>
+
+   <!-- BOTONES OK/CANCEL -->
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+
+  </layout>
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>
